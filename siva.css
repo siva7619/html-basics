@@ -13,7 +13,12 @@ header{
     font-family: monospace;
     font-size: larger;
     font-weight: 300;
-}
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: none;
+}   
 .button{
     height: 40px;
    border-radius: 40px;
@@ -40,6 +45,13 @@ section{
     border: 2px solid grey;
     border-radius: 20px;
     margin-bottom: 20px;
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}   
+
 }
 h1{
     color: blue;
@@ -52,9 +64,14 @@ input{
 footer{
     color: aliceblue;
     background-color: black;
+    padding: 50px;
+    height: 70;
+    width: 70;
+    
+    
     
 }
-.TOP{
+.FixedButton{
     bottom:0;
     right: 10px;
     position: fixed;
@@ -64,4 +81,7 @@ footer{
     cursor: pointer;
     color: bisque;
     background-color:black;
+}
+a{
+    text-decoration: none;
 }
