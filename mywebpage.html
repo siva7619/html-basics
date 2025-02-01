@@ -4,55 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   <style>
-    body{
-        background-color: aqua;
-    }
-   </style> 
+  <link rel ="stylesheet" href="siva.css">
+
 </head>
 <body> 
     <header> <h1>Welcome to my Portfolio</h1>
         <a href="">
-            <button>
+            <button class="button">
                 About
         </button>
     </a>
     <a href="">
-        <button>
+        <button class="button">
             Skills
     </button>
     </a>
     <a href="">
-        <button>
+        <button class="button">
             Project
     </button>
-    </a>
     <a href="">
-        <button>
+        <button class="button">
             Contact
     </button>
     </a>
 
     </header>
     <main> 
-        <selection id="about">
-            <h2>Karthik</h2>
+        <section id="about">
+            <h1>Karthik</h1>
             <img src="design.png" width="200"height="200">
             <p>Iam a passionate web developer with a focus on front-end technologies.</p>
             <p>Iam currently Pursuring my B.Tech in <strong>NIT,MANIPUR</strong></p>
             <P>I have learnt web Development from <br>Code with swaroop.</P>
             <p>You can <strong>click here</strong> to checkout what I have learnt in HTML CSS JS.</p>
-        </selection>
-       <selection id="skills">
-        <h2>My Skills</h2>
+        </section>
+       <section id="skills">
+        <h1>My Skills</h1>
     <ol><li>Python Basics</li>
         <li>HTML Basics</li>
         <li>CSS Basics</li>
         <li>Java Script</li>
     </ol>
 
-       </selection> 
-      <selection id="projects">
+       </section> 
+      <section id="projects">
         <h1>My projects</h1>
     <table border="1">
     <tr>
@@ -70,8 +66,10 @@
 </tr>
     </table>
 
-      </selection>
-      <selesction id="contact">
+      </section>
+   
+      
+      <section id="contact">
         <h1>Contact Me</h1>
         <p>Feel free to get in touch with me using the form below</p>
         <form>
@@ -97,11 +95,16 @@
     <label for="bio">Bio(up to 200 character):</label>
     <input type="text">
     <br>
-    <button type ="submit">Submit</button>
-      </selesction>
-    </main>
+    <button class="button" type ="submit">Submit</button>
+       
+</section>
+</main>
+<button class="TOP" type ="TOP">TOP</button>
     <footer>
+        <section>  
 <p>@ 2025 My Portfolio</p>
+</section>
+    
     </footer>
    
 </body>
